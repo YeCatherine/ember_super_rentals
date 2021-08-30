@@ -44,8 +44,8 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.modulePrefix ='ember-super-rentals';
-    ENV.rootURL = '/ember_super_rentals';
+    ENV.rootURL = '/ember_super_rentals/';
+    ENV.locationType = 'hash';
   }
 
   ENV.MAPBOX_ACCESS_TOKEN =

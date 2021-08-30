@@ -34,10 +34,10 @@ jobs:
       - name: Test 🔎
         run: |
           npm install
-#          npm test
+          npm run test:ember
 
       - name: Build 👷
-        run: npm run build
+        run: npm run-script build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
