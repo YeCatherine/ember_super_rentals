@@ -44,7 +44,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.rootURL = '/REPOSITORY_NAME/';
   }
 
   ENV.MAPBOX_ACCESS_TOKEN =
