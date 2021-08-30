@@ -44,7 +44,8 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.modulePrefix ='ember-super-rentals';
+    ENV.rootURL = '/ember_super_rentals';
   }
 
   ENV.MAPBOX_ACCESS_TOKEN =
